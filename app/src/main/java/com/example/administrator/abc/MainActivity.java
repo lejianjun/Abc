@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         tv.setText("ButterKnife");
+        Toast.makeText(this, "新加一个吐司代码", Toast.LENGTH_SHORT).show();
     }
 
     @OnClick(R.id.tv)
