@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         tv.setText("ButterKnife");
         Toast.makeText(this, "新加一个吐司代码", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "新加一个吐司代码", Toast.LENGTH_SHORT).show();
     }
 
     @OnClick(R.id.tv)
